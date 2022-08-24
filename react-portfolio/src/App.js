@@ -6,6 +6,10 @@ import Connect from './Components/Connect';
 function App() {
   return (
     <div className="App">
+      <header>
+        <Link to="/"></Link>
+        <Link to="/connect"></Link>
+      </header>
       <Routes>
         <Route exact path="/" element={<Home />} />
         <Route exact path="/connect" element={<Connect />} />
