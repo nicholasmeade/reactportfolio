@@ -20,16 +20,16 @@ const Skills = () => {
                 <p>I am comfortable with...</p>
                 <div className="skills-icon-container">
                     <ul className="skills-grid">
-                        <li><img src={BootstrapIcon} alt="Bootstrap Icon" /></li>
-                        <li><img src={CSSIcon} alt="CSS Icon" /></li>
-                        <li><img src={DjangoIcon} alt="Django Icon" /></li>
-                        <li><img src={ExpressIcon} alt="Express Icon" /></li>
-                        <li><img src={HtmlIcon} alt="HTML Icon" /></li>
-                        <li><img src={JSIcon} alt="JS Icon" /></li>
-                        <li><img src={MongoDBIcon} alt="MongoDB Icon" /></li>
-                        <li><img src={PostgresIcon} alt="PostgreSQL Icon" /></li>
-                        <li><img src={PythonIcon} alt="Python Icon" /></li>
-                        <li><img src={ReactIcon} alt="React Icon" /></li>
+                        <li className="Bootstrap-Icon"><img src={BootstrapIcon} alt="Bootstrap Icon" /></li>
+                        <li className="CSS-Icon"><img src={CSSIcon} alt="CSS Icon" /></li>
+                        <li className="Django-Icon"><img src={DjangoIcon} alt="Django Icon" /></li>
+                        <li className="Express-Icon"><img src={ExpressIcon} alt="Express Icon" /></li>
+                        <li className="HTML-Icon"><img src={HtmlIcon} alt="HTML Icon" /></li>
+                        <li className="JS-Icon"><img src={JSIcon} alt="JS Icon" /></li>
+                        <li className="MongoDB-Icon"><img src={MongoDBIcon} alt="MongoDB Icon" /></li>
+                        <li className="PostgreSQL-Icon"><img src={PostgresIcon} alt="PostgreSQL Icon" /></li>
+                        <li className="Python-Icon"><img src={PythonIcon} alt="Python Icon" /></li>
+                        <li className="React-Icon"><img src={ReactIcon} alt="React Icon" /></li>
                     </ul>
                 </div>
             </div>

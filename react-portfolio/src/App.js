@@ -16,6 +16,8 @@ function App() {
         <Route exact path="/" element={<Home />} />
         <Route exact path="/connect" element={<Connect />} />
       </Routes>
+      <Link to="/"></Link>
+      <Link to="/connect"></Link>
     </div>
   );
 }

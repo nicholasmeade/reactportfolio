@@ -4,6 +4,7 @@ import Skills from "../Skills/Skills";
 import GithubIcon from "../../Assets/github.png";
 import LinkedInIcon from "../../Assets/LinkedIn.png";
 import ProjectCard from "../Card/Card";
+import { Link } from "react-router-dom";
 
 const Home = () => {
     return ( 
@@ -28,6 +29,13 @@ const Home = () => {
             <br></br>
             <br></br>
             <Skills />
+            <div className="footer">
+                <h2 style={{fontSize: 50, color: "#f5f5f5"}}>Think we're a good fit? <Link style={{color: "#f5f5f5"}} to="/connect">Contact me</Link>.</h2>
+            </div>
+            <br></br>
+            <br></br>
+            <br></br>
+            <a class="returnToTop" href="#top" style={{ textDecoration: "none", color: "white", fontSize: 30 }}>Return to top</a>
         </>
      );
 }

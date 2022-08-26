@@ -44,5 +44,68 @@
         display: grid;
         grid-template-columns: repeat(4, .5fr);
         list-style: none;
+
+        .Bootstrap-Icon,
+        .CSS-Icon,
+        .Django-Icon,
+        .Express-Icon {
+            grid-row-start: 2;
+            grid-row-end: 3;
+        }
+
+        .HTML-Icon,
+        .JS-Icon,
+        .MongoDB-Icon,
+        .PostgreSQL-Icon {
+            grid-row-start: 1;
+            grid-row-end: 2;
+        }
+
+        .Python-Icon {
+            grid-column-start: 2;
+            grid-column-end: 3;
+        }
+
+        .React-Icon {
+            grid-column-start: 3;
+            grid-column-end: 4;
+        }
+
+    }
+}
+
+@media only screen and (min-width: 800px) {
+
+    .skills-grid {
+        display: grid;
+        grid-template-columns: repeat(4, .5fr);
+        list-style: none;
+
+        .Bootstrap-Icon,
+        .CSS-Icon,
+        .Django-Icon,
+        .Express-Icon {
+            grid-row-start: 2;
+            grid-row-end: 3;
+        }
+
+        .HTML-Icon,
+        .JS-Icon,
+        .MongoDB-Icon,
+        .PostgreSQL-Icon {
+            grid-row-start: 1;
+            grid-row-end: 2;
+        }
+
+        .Python-Icon {
+            grid-column-start: 2;
+            grid-column-end: 3;
+        }
+
+        .React-Icon {
+            grid-column-start: 3;
+            grid-column-end: 4;
+        }
+        
     }
 }

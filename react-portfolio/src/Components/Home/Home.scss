@@ -37,7 +37,28 @@
         transition: all 0.3s ease;
 
         &:hover {
-            scale: 1.1;
+            scale: 1.05;
         }
     }
   }
+
+.footer {
+    margin: auto;
+    margin-top: 50px;
+    max-width: 1200px;
+    background-color: rgba(214, 214, 214, 0.125);
+    border-radius: 2rem;
+    padding: 15px;
+    box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.305), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transition: all 0.3s ease;
+    opacity: 0;
+    animation: fadeInUp 1s 0s;
+    animation-fill-mode: forwards;
+    clear: both;
+
+    &:hover {
+        scale: 1.1;
+        background-color: rgba(139, 139, 139, 0.703);
+        box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.489), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+}
