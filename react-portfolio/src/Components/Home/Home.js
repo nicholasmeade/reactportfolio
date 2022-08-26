@@ -1,8 +1,9 @@
 // import ProjectCarousel from "./ProjectCarousel/ProjectCarousel";
-import "../App.scss";
-import Skills from "./Skills/Skills";
-import GithubIcon from "../Assets/github.png";
-import LinkedInIcon from "../Assets/LinkedIn.png";
+import "../../App.scss";
+import "./Home.scss";
+import Skills from "../Skills/Skills";
+import GithubIcon from "../../Assets/github.png";
+import LinkedInIcon from "../../Assets/LinkedIn.png";
 
 const Home = () => {
     return ( 

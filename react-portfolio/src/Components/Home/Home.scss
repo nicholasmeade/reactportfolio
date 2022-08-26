@@ -1,14 +1,15 @@
-.skills-description {
+/* body styling */
+
+.brand-statement {
     max-width: 1200px;
     margin: auto;
     margin-top: 30px;
     font-size: 25px;
-    background: rgba(15, 118, 174, 0.6);
+    background: rgba(15, 118, 174, 0.75);
     border-radius: 2rem;
     padding: 15px;
     box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.697), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     transition: all 0.3s ease;
-    padding-bottom: 10px;
     opacity: 0;
     animation: fadeInUp 1s 0s;
     animation-fill-mode: forwards;
@@ -16,33 +17,27 @@
 
     &:hover {
         scale: 1.05;
-        background: rgb(17, 141, 207);
+        background: rgba(15, 118, 174);
         box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.923), 0 6px 20px 0 rgba(0, 0, 0, 0.694);
+  
     }
 
     p {
         color: rgb(228, 228, 228);
         transition: all 0.3s ease;
-        font-size: 30px;
 
         &:hover {
-            color: white;
+        color: rgb(255, 255, 255);
         }
-    }
+      } 
 
-
-    .skills-description p {
-        color: rgb(228, 228, 228);
+    img {
+        margin: 5px;
+        cursor: pointer;
         transition: all 0.3s ease;
-    
+
         &:hover {
-            color: rgb(255, 255, 255);
+            scale: 1.1;
         }
     }
-
-    .skills-grid {
-        display: grid;
-        grid-template-columns: repeat(4, .5fr);
-        list-style: none;
-    }
-}
+  }

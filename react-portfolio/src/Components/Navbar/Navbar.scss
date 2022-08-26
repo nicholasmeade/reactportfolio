@@ -1,0 +1,60 @@
+/* navbar styling */
+
+#bootstrap-overrides .navbar-header {
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  #bootstrap-overrides .logo-button {
+    margin-right: auto;
+    margin-left: 5px;
+    margin-top: 5px;
+    background: none;
+    border-color: rgba(255, 255, 255, 0);
+    border-radius: 1rem;
+    color: white;
+    font-size: 45px;
+    font-family: 'Radio Canada', sans-serif;
+    transition: all 0.4s ease;
+  }
+  
+  #bootstrap-overrides .logo-button:hover {
+    color: black;
+    background-color: white;
+    border-color: rgb(255, 255, 255);
+    border-width: 2px;
+  }
+  
+  #bootstrap-overrides .about-button,
+  #bootstrap-overrides .projects-button,
+  #bootstrap-overrides .skills-button,
+  #bootstrap-overrides .connect-button {
+    margin-top: 10px;
+    margin-right: 20px;
+    background: none;
+    border-radius: 1rem;
+    height: 40px;
+    width: 120px;
+    font-size: 20px;
+    font-family: 'Radio Canada', sans-serif;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  #bootstrap-overrides .about-button:hover,
+  #bootstrap-overrides .projects-button:hover,
+  #bootstrap-overrides .skills-button:hover {
+    color: rgb(0, 0, 0);
+    background-color: rgb(230, 230, 230);
+  }
+  
+  #bootstrap-overrides .connect-button {
+    background-color: rgb(35, 233, 255);
+    color: black;
+    transition: all 0.4s ease;
+  }
+  
+  #bootstrap-overrides .connect-button:hover {
+    background-color: rgb(0, 255, 0);
+    scale: 1.1;
+  }
