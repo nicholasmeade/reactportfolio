@@ -82,11 +82,21 @@
 }
 
 .brand-statement p {
-  color: rgb(255, 255, 255);
+  color: rgb(228, 228, 228);
+  transition: all 0.3s ease;
 }
 
 .brand-statement:hover {
   scale: 1.1;
   background: rgba(15, 118, 174);
-  box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.923), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.923), 0 6px 20px 0 rgba(0, 0, 0, 0.694);
+}
+
+.brand-statement p:hover {
+  color: rgb(255, 255, 255);
+}
+
+.contact-icon-container img {
+  margin: 5px;
+  cursor: pointer;
 }

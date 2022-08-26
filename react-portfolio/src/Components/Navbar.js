@@ -4,7 +4,7 @@ import "../App.css";
 const Navbar = () => {
     return ( 
       <div className="navbar" id="bootstrap-overrides">
-        <header className="navbar-header">
+        <header className="navbar-header" id="bootstrap-overrides">
           <button className="logo-button"><Link to="/" style={{textDecoration: "none", color: "black"}}>Nicholas Meade</Link></button>
           <button className="about-button">About Me</button>
           <button className="projects-button">Projects</button>

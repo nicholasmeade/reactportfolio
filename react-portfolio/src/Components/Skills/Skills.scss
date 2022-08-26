@@ -1,0 +1,43 @@
+.skills-description {
+    max-width: 1200px;
+    margin: auto;
+    margin-top: 30px;
+    font-size: 25px;
+    background: rgba(15, 118, 174, 0.6);
+    border-radius: 2rem;
+    padding: 15px;
+    box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.697), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transition: all 0.3s ease;
+
+    &:hover {
+        scale: 1.05;
+        background: rgb(17, 141, 207);
+        box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.923), 0 6px 20px 0 rgba(0, 0, 0, 0.694);
+    }
+
+    p {
+        color: rgb(228, 228, 228);
+        transition: all 0.3s ease;
+        font-size: 30px;
+
+        &:hover {
+            color: white;
+        }
+    }
+
+
+    .skills-description p {
+        color: rgb(228, 228, 228);
+        transition: all 0.3s ease;
+    
+        &:hover {
+            color: rgb(255, 255, 255);
+        }
+    }
+
+    .skills-grid {
+        display: grid;
+        grid-template-columns: repeat(4, .5fr);
+        list-style: none;
+    }
+}
