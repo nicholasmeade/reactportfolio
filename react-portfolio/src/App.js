@@ -1,13 +1,13 @@
-import './App.css';
 import { Routes, Route, Link } from "react-router-dom";
 import Home from './Components/Home';
 import Connect from './Components/Connect';
 import Navbar from './Components/Navbar';
+import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header>
+    <div className="App" id="bootstrap-overrides">
+      <header id="bootstrap-overrides">
         <Navbar />
         <Link to="/"></Link>
         <Link to="/connect"></Link>
