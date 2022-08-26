@@ -1,0 +1,22 @@
+.projectcard-container {
+    max-width: 1600px;
+    margin: auto;
+    opacity: 0;
+    animation: fadeInUp 1s 0s;
+    animation-fill-mode: forwards;
+    clear: both;
+
+    .indiv-card {
+        box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.697), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        transition: all 0.3s ease;
+
+        &:hover {
+            scale: 1.1;
+            box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.923), 0 6px 20px 0 rgba(0, 0, 0, 0.694);
+        }
+
+        a {
+            text-decoration: none;
+        }
+    }
+}

@@ -1,9 +1,9 @@
-// import ProjectCarousel from "./ProjectCarousel/ProjectCarousel";
 import "../../App.scss";
 import "./Home.scss";
 import Skills from "../Skills/Skills";
 import GithubIcon from "../../Assets/github.png";
 import LinkedInIcon from "../../Assets/LinkedIn.png";
+import ProjectCard from "../Card/Card";
 
 const Home = () => {
     return ( 
@@ -22,14 +22,12 @@ const Home = () => {
             </div>
             <br></br>
             <br></br>
-            <div id="bootstrap-overrides">
-                {/* <ProjectCarousel /> */}
-            </div>
+            <br></br>
+            <ProjectCard />
             <br></br>
             <br></br>
-            <div>
-                <Skills />
-            </div>
+            <br></br>
+            <Skills />
         </>
      );
 }
