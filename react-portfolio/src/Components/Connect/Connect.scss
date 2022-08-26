@@ -2,11 +2,16 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Anton&family=Dosis:wght@600&family=Radio+Canada:wght@500&display=swap');
 
+.contact-container {
+    margin-top: 170px;
+}
+
 h2 {
     width: 49%;
     margin: auto;
-    margin-top: 20px;
+    margin-bottom: 20px;
     color: white;
+    font-size: 25px;
 }
 
 .contact-form {
@@ -26,6 +31,9 @@ h2 {
             overflow: hidden;
             display: block;
             position: relative;
+            opacity: 0;
+            animation: fadeInUp 1.5s 0s;
+            animation-fill-mode: forwards;
             clear: both;
         }
 
