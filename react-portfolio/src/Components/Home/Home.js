@@ -30,7 +30,7 @@ const Home = () => {
             <br></br>
             <Skills />
             <div className="footer">
-                <h2 style={{fontSize: 50, color: "#f5f5f5"}}>Think we're a good fit? <Link style={{color: "#f5f5f5"}} to="/connect">Contact me</Link>.</h2>
+                <h2 style={{fontSize: 50, color: "#f5f5f5"}}>Think we're a good fit? <Link style={{color: "#f5f5f5"}} to="/reactportfolio/connect">Contact me</Link>.</h2>
             </div>
             <br></br>
             <br></br>

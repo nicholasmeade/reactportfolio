@@ -9,15 +9,13 @@ function App() {
     <div className="App" id="bootstrap-overrides">
       <header id="bootstrap-overrides">
         <Navbar />
-        <Link to="/"></Link>
-        <Link to="/connect"></Link>
+        <Link to="/reactportfolio/"></Link>
+        <Link to="/reactportfolio/connect"></Link>
       </header>
       <Routes>
-        <Route exact path="/" element={<Home />} />
-        <Route exact path="/connect" element={<Connect />} />
+        <Route exact path="/reactportfolio/" element={<Home />} />
+        <Route exact path="/reactportfolio/connect" element={<Connect />} />
       </Routes>
-      <Link to="/"></Link>
-      <Link to="/connect"></Link>
     </div>
   );
 }
